@@ -1,0 +1,60 @@
+.hourlyForecastContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.hourlyBox{
+    color: white;
+    flex-grow: 1;
+    background-color: #2b4879;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+    text-align: center;
+    flex-basis: min-content;
+    align-items: stretch;
+   
+}
+.hourlyForecastHeading{
+    justify-content: flex-start;
+    align-items: flex-start;
+    color:white
+}
+.hourlyIconCondition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Icon{
+    width: 5vw;
+    height: 5vh;
+    justify-content: flex-start;
+}
+.hour{
+    flex-grow:1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.hourSpan{
+    color:white;
+    
+}
+.hourlyCondition{
+    flex-grow: 1;
+}
+.hourlyConditionSpan{
+    color:white;
+}
+.hourlyTemp{
+    flex-grow: 1;
+    align-items: end;
+}
+.itemBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    padding: 5px;
+}

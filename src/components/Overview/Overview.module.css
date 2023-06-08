@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.overviewContainer{
+    flex-shrink: 1;
+    padding: 10px 10px 10px 10px;
+}
+
+.overview{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.moreDetails{
+    flex-shrink: 1;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.detailsIcon{
+    color: blue;
+    display: flex;
+       
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.containerBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+}
+
+.overviewBox{
+    height: 20vh;
+    flex-grow: 1;
+    box-shadow: lightgray;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-basis: min-content;
+}
+
+.overviewBox:hover {
+    background-color: white;
+    box-shadow:  
+         -1px 1px #e2e2e2,
+         -2px 2px #e2e2e2,
+         -4px 4px #e2e2e2,
+         -6px 6px #e2e2e2,
+         -8px 8px #e2e2e2;        
+}
+
+.weatherIcon{
+    width: 5vw;
+    height: 10vh;
+    align-items: center;
+    color:#3769f0;
+}
+
+.wheatherDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.wheatherDetailsText1{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.wheatherDetailsText2{
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.overviewThirdPart{
+    display: flex;
+    justify-content: center;
+}
+.overviewThirdPartIcon{
+    align-items: center;
+    color:#3769f0;
+    display: flex;
+}

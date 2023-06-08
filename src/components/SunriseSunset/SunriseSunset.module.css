@@ -1,0 +1,77 @@
+.ssBox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+
+}
+
+.sunriseBox {
+    color: white;
+    height: 15vh;
+    flex-grow: 1;
+    background-color: #2b4879;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-basis: min-content;
+}
+
+.sunriseBox:hover {
+    border: 1px solid #84a6e6;
+}
+
+.sunsetBox {
+    color: white;
+    gap: 1;
+    height: 15vh;
+    border-radius: 2px;
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: #2b4879;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-basis: min-content;
+
+}
+
+.sunsetBox:hover {
+    border: 1px solid #84a6e6;
+}
+
+.icon{
+    width: 5vw;
+    height: 10vh;
+}
+
+.headingTime{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headingToggle {
+    display: flex;
+    padding-top: 20px;
+}
+
+.heading {
+    flex-grow: 1;
+    color: #fcffff;
+    font-size: 2em;
+}
+
+.toggle {
+    font-size: 1em;
+    color: #fcffff;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    wrap: flex;
+    align-items: center;
+    cursor: pointer;
+
+}

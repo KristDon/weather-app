@@ -1,0 +1,49 @@
+.container {
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+
+.dateContainer{
+    padding: 10px 10px 10px 10px;
+    flex-shrink: 1;
+}
+
+.monthDate{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.dayDate{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.searchContainer{
+    padding:5px;
+    flex-shrink: 1;  
+    background-color: rgb(241, 241, 241);
+    border: 1 solid gray;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 6px;
+    color: #afb0b6;
+}
+
+
+.searchIcon{
+   display: flex;
+   align-items: center;
+}
+
+.buttonContainer{
+    padding: 10px 10px 10px 10px;
+    flex-shrink: 1;
+}

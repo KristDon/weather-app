@@ -1,0 +1,85 @@
+.timePlace {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.place {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.time {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.placeHeadingFirst {
+    color: #fcffff;
+    font-size: 2em;
+
+}
+
+.placeHeadingSecond {
+    color: #b4c3d5;
+    font-size: 1em;
+}
+
+.timeHeading {
+    color: #fcffff;
+    font-size: 1.5em;
+
+}
+
+.weatherCondition {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1;
+    justify-content: space-between;
+    color: #fcffff;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.leftDetails {
+    display: flex;
+    flex-direction: column;
+    color: #fcffff;
+    flex-grow: 1;
+    align-items: flex-start;
+
+}
+
+.leftDetailsText {
+    font-size: 2em;
+
+}
+
+.leftDetailsIcon {
+    width: 5vw;
+    height: 10vh;
+}
+
+.rightDetails {
+    flex-grow: 1;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.rightDetailsText {
+    font-size: 1.5em;
+    color: #fcffff;
+}
+.lineBetween{
+    color: #b4c3d5;
+    
+}
